@@ -1,0 +1,27 @@
+{
+  "name": "loadsmart-react-native",
+  "displayName": "Loadsmart React Native Extension Pack",
+  "description": "Set of plugins to start developing React Native applications at Loadsmart",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.34.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "christian-kohler.npm-intellisense",
+    "esbenp.prettier-vscode",
+    "mikestead.dotenv",
+    "ms-vscode.typescript-javascript-grammar",
+    "MS-vsliveshare.vsliveshare",
+    "MS-vsliveshare.vsliveshare-audio",
+    "msjsdiag.vscode-react-native",
+    "Orta.vscode-react-native-storybooks",
+    "Orta.vscode-ios-common-files",
+    "Orta.vscode-danger",
+    "rebornix.Ruby",
+    "ryanluker.vscode-coverage-gutters",
+    "yzhang.markdown-all-in-one"
+  ]
+}
