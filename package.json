@@ -4,6 +4,12 @@
   "description": "Set of plugins to start developing React Native applications at Loadsmart",
   "version": "0.0.1",
   "publisher": "Loadsmart",
+  "preview": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/loadsmart/vscode-react-native-extension-pack.git"
+  },
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.34.0"
   },
