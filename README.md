@@ -1,3 +1,5 @@
+![vscode+rn+ls__short](https://user-images.githubusercontent.com/235208/60537914-8bde1580-9cd7-11e9-9245-809730f15152.png)
+
 # VSCode + React Native @ Loadsmart
 
 This is an extension pack for VSCode containing all necessary plugins to start developing React Native applications at Loadsmart.
