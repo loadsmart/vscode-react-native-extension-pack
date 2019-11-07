@@ -17,6 +17,7 @@ This is an extension pack for VSCode containing all necessary plugins to start d
 
 - [React Native Tools](https://marketplace.visualstudio.com/items?itemName=msjsdiag.vscode-react-native)
 - [React Native Storybook](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-react-native-storybooks)
+- [Styled Components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
 - [Danger](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-danger)
 - [Ruby](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby)
 
