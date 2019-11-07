@@ -19,6 +19,7 @@
   "extensionPack": [
     "christian-kohler.npm-intellisense",
     "esbenp.prettier-vscode",
+    "jpoissonnier.vscode-styled-components",
     "mikestead.dotenv",
     "ms-vscode.typescript-javascript-grammar",
     "MS-vsliveshare.vsliveshare",
