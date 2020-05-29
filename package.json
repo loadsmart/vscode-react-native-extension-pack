@@ -32,5 +32,8 @@
     "ryanluker.vscode-coverage-gutters",
     "streetsidesoftware.code-spell-checker",
     "yzhang.markdown-all-in-one"
-  ]
+  ],
+  "dependencies": {
+    "vsce": "^1.75.0"
+  }
 }
