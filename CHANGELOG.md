@@ -6,6 +6,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.0.3] - 2020-05-29
+### Changed
+- Extension Logo for VSCode marketplace
+
 ## [0.0.2]
 ### Added
 - Spell Checker plugin (streetsidesoftware.code-spell-checker)
