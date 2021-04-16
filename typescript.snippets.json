@@ -1,0 +1,17 @@
+{
+  "Mobile platform use case": {
+    "prefix": "mpuc",
+    "body": [
+      "type ${TM_FILENAME/(.*?)\\..+/${1}/}Deps = {",
+      "}",
+      "",
+      "export const ${TM_FILENAME/(.*?)\\..+/${1}/}Factory = (dependencies: ${TM_FILENAME/(.*?)\\..+/${1}/}Deps) => async () => {",
+      "",
+      "}",
+      "",
+      "export const ${TM_FILENAME/(.*?)\\..+/${1}/} = () => {",
+      "}"
+    ],
+    "description": "Boilerplate to use case"
+  }
+}

@@ -1,0 +1,55 @@
+{
+	"Mobile platform component test": {
+		"prefix": "mpct",
+		"body": [
+			"import React from 'react'",
+			"",
+			"import { renderWithProviders } from '@test/renderWithProviders'",
+			"",
+			"import ${TM_FILENAME/(.*?)\\..+/${1}/} from './${TM_FILENAME/(.*?)\\..+/${1}/}'",
+			"",
+			"const defaultProps = {${1}}",
+			"",
+			"const setup = (props = {}) => renderWithProviders(<${TM_FILENAME/(.*?)\\..+/${1}/} {...defaultProps} {...props} />)",
+			"",
+			"describe('${TM_FILENAME/(.*?)\\..+/${1}/}', () => {",
+			"\tit('should ${2: do something}', () => {",
+			"\t\tconst {${3}} = setup()",
+			"\t\t${4}",
+			"\t})",
+			"})"
+		],
+		"description": "Boilerplate to test React component"
+	},
+	"Test unit": {
+		"prefix": "mpit",
+		"body": [
+			"it('should ${1:do something} ', () => {",
+			"\tconst {${2}} = setup()",
+			"\t${3}",
+			"})"
+		],
+		"description": "Boilerplate to unit test"
+	},
+	"Mobile platform component": {
+		"prefix": "mpc",
+		"body": [
+			"import React from 'react'",
+			"",
+			"import styled from 'styled-components/native'",
+			"",
+			"const Container = styled.View``",
+			"",
+			"const ${TM_FILENAME_BASE} = () => {",
+			"\treturn (",
+			"\t\t<Container>",
+			"\t\t\t${1}",
+			"\t\t</Container>",
+			"\t)",
+			"}",
+			"",
+			"export default ${TM_FILENAME_BASE}"
+		],
+		"description": "Boilerplate to React components"
+	}
+}
