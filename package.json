@@ -2,7 +2,7 @@
   "name": "loadsmart-react-native",
   "displayName": "Loadsmart React Native Extension Pack",
   "description": "Set of plugins to start developing React Native applications at Loadsmart",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "publisher": "Loadsmart",
   "preview": true,
   "repository": {
@@ -16,6 +16,18 @@
   "categories": [
     "Extension Packs"
   ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescriptreact",
+        "path": "./typescriptreact.snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./typescript.snippets.json"
+      }
+    ]
+  },
   "extensionPack": [
     "christian-kohler.npm-intellisense",
     "esbenp.prettier-vscode",
