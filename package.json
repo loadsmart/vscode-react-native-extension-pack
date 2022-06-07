@@ -46,6 +46,6 @@
     "yzhang.markdown-all-in-one"
   ],
   "dependencies": {
-    "vsce": "^1.75.0"
+    "vsce": "^1.103.1"
   }
 }
