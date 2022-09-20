@@ -6,8 +6,8 @@ metadata:
   annotations:
     github.com/project-slug: loadsmart/vscode-react-native-extension-pack
   tags:
-    - None
+    - vscode
 spec:
   type: other
   lifecycle: production
-  owner: <CODE-OWNER>
+  owner: developer-productivity
