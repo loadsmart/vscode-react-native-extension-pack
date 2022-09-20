@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: vscode-react-native-extension-pack
+  description: Set of plugins to start developing React Native applications at Loadsmart
+  annotations:
+    github.com/project-slug: loadsmart/vscode-react-native-extension-pack
+  tags:
+    - vscode
+spec:
+  type: other
+  lifecycle: production
+  owner: developer-productivity
