@@ -5,6 +5,7 @@ metadata:
   description: Set of plugins to start developing React Native applications at Loadsmart
   annotations:
     github.com/project-slug: loadsmart/vscode-react-native-extension-pack
+    opslevel.com/tier: tier_4
   tags:
     - vscode
 spec:
